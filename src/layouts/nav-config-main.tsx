@@ -11,6 +11,11 @@ import { Iconify } from 'src/components/iconify';
 export const navData: NavMainProps['data'] = [
   { title: 'Home', path: '/', icon: <Iconify width={22} icon="solar:home-angle-bold-duotone" /> },
   {
+    title: 'Interactive Image',
+    path: paths.interactiveImage,
+    icon: <Iconify width={22} icon="solar:gallery-bold-duotone" />,
+  },
+  {
     title: 'Components',
     path: paths.components,
     icon: <Iconify width={22} icon="solar:atom-bold-duotone" />,
