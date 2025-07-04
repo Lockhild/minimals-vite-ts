@@ -1,4 +1,5 @@
 import type { CanvasElement } from './types';
+import { HOTSPOT_SIZES } from './types';
 
 export const generateId = (): string => {
   return Math.random().toString(36).substr(2, 9);
