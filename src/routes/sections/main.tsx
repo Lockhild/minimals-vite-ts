@@ -30,6 +30,8 @@ const Page403 = lazy(() => import('src/pages/error/403'));
 const Page404 = lazy(() => import('src/pages/error/404'));
 // Blank
 const BlankPage = lazy(() => import('src/pages/blank'));
+// Interactive Image
+const InteractiveImagePage = lazy(() => import('src/pages/interactive-image'));
 
 // ----------------------------------------------------------------------
 
