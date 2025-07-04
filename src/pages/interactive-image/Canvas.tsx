@@ -68,7 +68,14 @@ export default function Canvas({ canvasState, onElementAdd, onElementSelect }: C
         </Box>
       );
     } else {
-      const IconComponent = Icons[element.icon as keyof typeof Icons] as any;
+      const iconMap = {
+        info: Info,
+        star: Star,
+        heart: Heart,
+        home: Home,
+        camera: Camera,
+      };
+      const IconComponent = iconMap[element.icon as keyof typeof iconMap];
       const size = HOTSPOT_SIZES[element.size];
 
       return (
