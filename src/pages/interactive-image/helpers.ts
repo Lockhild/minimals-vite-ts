@@ -34,7 +34,7 @@ export const isPointInElement = (x: number, y: number, element: CanvasElement): 
     return x >= element.x && x <= element.x + width && y >= element.y - height && y <= element.y;
   } else {
     // Hotspot bounds
-    const size = element.size === 'small' ? 20 : element.size === 'medium' ? 30 : 40;
+    const size = HOTSPOT_SIZES[element.size];
     const radius = size / 2;
     return (
       x >= element.x - radius &&
