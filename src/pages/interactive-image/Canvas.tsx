@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import Box from '@mui/material/Box';
-import * as Icons from 'lucide-react';
+import { Info, Star, Heart, Home, Camera } from 'lucide-react';
 import type { CanvasState, CanvasElement } from './types';
 import { getCanvasPosition, isPointInElement, HOTSPOT_SIZES } from './helpers';
 
