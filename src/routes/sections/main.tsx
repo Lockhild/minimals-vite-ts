@@ -54,6 +54,7 @@ export const mainRoutes: RouteObject[] = [
           { path: 'contact-us', element: <ContactPage /> },
           { path: 'faqs', element: <FaqsPage /> },
           { path: 'blank', element: <BlankPage /> },
+          { path: 'interactive-image', element: <InteractiveImagePage /> },
           {
             path: 'product',
             children: [
